@@ -1,0 +1,59 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  height: 5%;
+  justify-content: space-between;        /* Logo left, links right */
+  align-items: center;
+  padding: var(--spacing-sm) var(--spacing-lg);  /* replaced navbar-padding variables */
+  background-color: var(--color-background);
+  border-bottom: 2px solid var(--color-accent);
+  font-family: Arial, sans-serif;
+  user-select: none;                     /* Prevent text selection */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  text-decoration: none;
+}
+
+.logo img {
+  height: 6rem;
+  aspect-ratio: 1;
+  width: auto;
+}
+
+.logo .brand-name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--color-hover) !important;
+}
+
+.nav-links a.active {
+  color: var(--color-selected-text);
+  border-bottom: 2px solid var(--color-selected-text);
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}

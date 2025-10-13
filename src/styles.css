@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Raleway:wght@400;700&display=swap');
+
+
+
+
+
+
+:root {
+  /* Fonts */
+  --font-heading: 'Kaushan Script', cursive;
+  --font-body: 'Raleway', sans-serif;
+
+
+  /* Brand colors */
+  --color-primary: #007acc;        /* main brand color */
+  --color-background: #f8fbfd;
+  --color-accent: #023e8a;     /* general background */
+  --color-selected-text: #007acc;
+  --color-hover: #023e8a;
+  --color-text: #333;              /* primary text color */
+  --color-text-light: #fff;        /* light text, for dark backgrounds */
+  --color-border: #ccc;            /* borders or separators */
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: .5rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+
+  /* Border radius */
+  --border-radius: 8px;
+}
+
+
+body {
+    margin: 0px;
+}
+p,
+a,
+div,
+span,
+li {
+  font-family: var(--font-body);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+  font-family: var(--font-heading);
+  color: var(--color-text);
+}
+
+
