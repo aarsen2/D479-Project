@@ -12,7 +12,8 @@
 
 
   /* Brand colors */
-  --color-primary: #007acc;        /* main brand color */
+  --color-primary: #007acc;   
+  --color-secondary: #a5deff;     /* main brand color */
   --color-background: #f8fbfd;
   --color-accent: #023e8a;     /* general background */
   --color-selected-text: #007acc;
@@ -52,7 +53,24 @@ h5,
 h6,
 .logo {
   font-family: var(--font-heading);
-  color: var(--color-text);
+  color: var(--color-primary);
 }
+
+
+h1 {
+  font-size: 4rem;
+}
+
+
+h2 {
+  font-size: 3rem;
+}
+
+
+h3 {
+  font-size: 2rem;
+}
+
+
 
 

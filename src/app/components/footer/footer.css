@@ -1,6 +1,7 @@
 .site-footer {
-  background-color: var(--color-primary);    /* main brand color */
-  color: var(--color-text-light);            /* light text for contrast */
+  border-top: 2px solid var(--color-primary);
+  background-color: var(--color-background);    /* main brand color */
+  color: var(--color-text);            /* light text for contrast */
   padding: var(--spacing-lg) var(--spacing-md);
   text-align: center;
 }
@@ -20,7 +21,7 @@
 }
 
 .footer-links a {
-  color: var(--color-text-light);           /* light text links */
+  color: var(--color-text);           /* light text links */
   text-decoration: none;
   transition: color 0.2s ease;
 }
