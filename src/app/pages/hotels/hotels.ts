@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './hotels.css'
 })
 export class Hotels {
-
+ngOnInit(): void {
+    window.scrollTo({ top: 0, behavior:  "instant" });
+  }
 }

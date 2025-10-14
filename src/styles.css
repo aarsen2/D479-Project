@@ -86,3 +86,35 @@ hr {
   border-color: var(--color-primary);
   border-radius: 50%;
 }
+
+
+
+
+
+
+/* Global button styling */
+
+.primary-btn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px; 
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none; /* allows use as <a> link too */
+}
+
+.primary-btn:hover {
+  background-color: var(--color-accent); /* darker shade for hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.primary-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}

@@ -1,0 +1,12 @@
+.content-container {
+   padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 1.5rem;
+    padding-bottom: 1px;
+    margin: 0px;
+    background-color: var(--color-background); 
+} 
+
+app-navbar {
+    margin: 0px;
+}
