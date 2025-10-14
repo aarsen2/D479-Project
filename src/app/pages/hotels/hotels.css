@@ -59,11 +59,20 @@ hr {
 
 
 
-/* Activities section */
+/* Hotel Section */
+
+.hotel-body {
+  display: flex;
+  justify-content: center;
+}
+
+.hotel-section{
+  width: 80%;
+}
+
 
 .hotel {
     display: flex;
-    margin-top: 4rem;
 }
 
 .hotel-text {
