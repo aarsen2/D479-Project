@@ -1,126 +1,105 @@
-/* Page wide CSS Changes */
+
+
+/* ---------- landing Section ---------- */
+.hotels-landing {
+  position: relative;
+  background: url("/assets/images/accomodations-landing.webp") center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+      border-radius: 8px;
+
+}
+
+/* Dark blur overlay for readability */
+.hotels-landing::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+/* landing text content */
+.hotels-landing .landing-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  padding: 2rem;
+  backdrop-filter: blur(2px); /* subtle polish */
+}
+
+/* Headline and paragraph styling */
+.hotels-landing h1 {
+  font-size: 2.8rem;
+  color: var(--color-text-light);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hotels-landing p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e8f4fb;
+}
+
+
+
+
 hr {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
-/* ==============================
-   landing Section
-   ============================== */
-   
-.stay-landing {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("/assets/images/accomodations-landing.webp") center/cover no-repeat;
-    color: #fff;
-    text-align: center;
-    padding: 6rem 2rem;
-}
 
-.stay-landing-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
 
-.stay-landing h1 {
-    font-size: 2.8rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    color: var(--color-text-light)
-}
 
-.stay-landing p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: var(--color-text-light)
-}
+/* Activities section */
 
-/* ==============================
-   Intro Section
-   ============================== */
-.where-to-stay {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: var(--spacing-lg) var(--spacing-md);
-    color: var(--color-text);
-}
-
-.intro {
+.hotel {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    flex-wrap: wrap;
-    margin-bottom: var(--spacing-lg);
+    margin-top: 4rem;
 }
 
-.intro-text {
-    flex: 1;
-    min-width: 300px;
+.hotel-text {
+    width: 60%;
+    box-sizing: border-box;
+    margin: 5rem;
 }
 
-.intro-text h2 {
-    color: var(--color-primary);
-    margin-bottom: 1rem;
-    font-size: 1.8rem;
+.hotel-img {
+    width: 40%;
+    box-sizing: border-box;
+    aspect-ratio: 5/3;
+    border-radius: 8px;
+    text-align: justify;
 }
 
-.intro-text p {
-    line-height: 1.6;
-}
 
-.intro-image img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: var(--radius-lg);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
 
-/* ==============================
-   Accommodation Sections
-   ============================== */
-.accommodation {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    margin-bottom: var(--spacing-lg);
-}
 
-.accommodation.reverse {
-    flex-direction: row-reverse;
-}
 
-.accommodation-image img {
-    width: 100%;
-    max-width: 420px;
-    border-radius: var(--radius-lg);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
 
-.accommodation-text {
-    flex: 1;
-    min-width: 300px;
-}
+/* plan your day section */
 
-.accommodation-text h3 {
-    color: var(--color-primary);
-    margin-bottom: 1rem;
-    font-size: 1.6rem;
-}
 
-.accommodation-text p {
-    line-height: 1.7;
-}
-
-/* ==============================
-   CTA Section
-   ============================== */
+/* === Plan Your Day Section === */
 .cta {
-    text-align: center;
-    margin-top: var(--spacing-lg);
+  text-align: center;
+  background-color: var(--color-background);
+  padding-bottom: 4rem;
+  color: var(--color-text, #333);
 }
 
-.cta p {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+
+.plan-your-day p {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
 }
