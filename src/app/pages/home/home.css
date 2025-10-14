@@ -1,7 +1,7 @@
 #homepage {
   padding-left: 5%;
   padding-right: 5%;
-
+  background-color: var(--color-background);
 }
 
 .landing {
@@ -51,6 +51,11 @@
   column-gap: 2rem;
 }
 
+.trip-cards a {
+  text-decoration: none;
+}
+
+
 .card {
   flex: 1;
   height: 400px; 
@@ -65,14 +70,21 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+
+/* Adds a subtle hover effect on the cards */
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
 }
 
 /* Add a subtle overlay so text is readable */
- .card::before {
+.card::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3); 
   z-index: 0;
 } 
 
@@ -84,13 +96,23 @@
 
 /* Individual card backgrounds */
 .getting-around {
-  background-image: url('/assets/images/test.png');
+  background-image: url('/assets/images/transportation.jpg');
 }
 
 .things-to-do {
-  background-image: url('/assets/images/things-to-do.png');
+  background-image: url('/assets/images/activities.jpg');
 }
 
 .where-to-stay {
-  background-image: url('/assets/images/where-to-stay.png');
+  background-image: url('/assets/images/accomodations.jpg');
 }
+
+
+
+
+
+
+
+
+
+

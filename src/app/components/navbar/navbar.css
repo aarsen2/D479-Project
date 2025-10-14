@@ -5,7 +5,7 @@
   justify-content: space-between;        /* Logo left, links right */
   align-items: center;
   padding: var(--spacing-sm) var(--spacing-lg);  /* replaced navbar-padding variables */
-  background-color: var(--color-background);
+  background-color: var(--color-secondary-background);
   border-bottom: 2px solid var(--color-primary);
   font-family: Arial, sans-serif;
   user-select: none;                     /* Prevent text selection */
@@ -26,6 +26,12 @@
   height: 6rem;
   aspect-ratio: 1;
   width: auto;
+  mask-image: radial-gradient(circle, 
+    rgba(0,0,0,255) 50%,
+    rgba(0,0,0,150) 65%,
+    rgba(0,0,0,0) 75%
+  );
+
 }
 
 .logo .brand-name {

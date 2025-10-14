@@ -14,7 +14,8 @@
   /* Brand colors */
   --color-primary: #007acc;   
   --color-secondary: #a5deff;     /* main brand color */
-  --color-background: #f8fbfd;
+  --color-secondary-background: #f8fbfd;
+  --color-background: #f4f7fa;
   --color-accent: #023e8a;     /* general background */
   --color-selected-text: #007acc;
   --color-hover: #023e8a;
@@ -33,9 +34,15 @@
 }
 
 
+
+/* Removes Excess Margin and padding */
 body {
     margin: 0px;
 }
+
+
+
+/* Global Font Family and color rules*/
 p,
 a,
 div,
@@ -43,6 +50,7 @@ span,
 li {
   font-family: var(--font-body);
   color: var(--color-text);
+  font-size: large;
 }
 
 h1,
@@ -72,5 +80,9 @@ h3 {
 }
 
 
+/* Global Horizontal Rule  */
 
-
+hr {
+  border-color: var(--color-primary);
+  border-radius: 50%;
+}
