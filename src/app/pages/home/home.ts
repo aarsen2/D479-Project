@@ -9,6 +9,6 @@ import { RouterModule } from '@angular/router';
 })
 export class Home {
   ngOnInit(): void {
-    window.scrollTo({ top: 0, behavior:  "instant" });
+    window.scrollTo({ top: 0, behavior: "instant" });
   }
 }

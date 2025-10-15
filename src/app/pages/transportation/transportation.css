@@ -1,9 +1,6 @@
-
-
 /* ---------- landing Section ---------- */
 .transit-landing {
   position: relative;
-  background: url("/assets/images/transportation-landing.jpg") center/cover no-repeat;
   height: 60vh;
   display: flex;
   align-items: center;
@@ -11,8 +8,9 @@
   text-align: center;
   color: white;
   overflow: hidden;
-      border-radius: 8px;
-
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Dark blur overlay for readability */
@@ -31,7 +29,8 @@
   z-index: 1;
   max-width: 700px;
   padding: 2rem;
-  backdrop-filter: blur(2px); /* subtle polish */
+  backdrop-filter: blur(2px);
+  /* subtle polish */
 }
 
 /* Headline and paragraph styling */
@@ -49,40 +48,40 @@
 }
 
 hr {
-    margin-top: 5rem; 
-    margin-bottom: 5rem; 
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .transit-selector {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 
-#transit-selector-header{
-    text-align: center;
+#transit-selector-header {
+  text-align: center;
 }
 
-.selector-buttons{
-    align-items: center;
-    justify-content: center;
-    text-align: center;    
+.selector-buttons {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.selector-buttons a, #seperator {
-    text-decoration: none;
-    font-size: 1.25rem;
-    color: darkgray;
+.selector-buttons a,
+#seperator {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: darkgray;
 }
 
 .selector-buttons a:hover {
   color: var(--color-selected-text);
   padding-bottom: 0.25rem;
-}   
+}
 
 .selector-buttons a.active {
   color: var(--color-selected-text);
   border-bottom: 2px solid var(--color-selected-text);
   font-weight: bold;
   padding-bottom: 0.25rem;
-}   
-
+}

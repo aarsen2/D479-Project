@@ -1,7 +1,6 @@
 /* ---------- landing Section ---------- */
 .activities-landing {
   position: relative;
-  background: url("/assets/images/activities-landing.jpg") center/cover no-repeat;
   height: 60vh;
   display: flex;
   align-items: center;
@@ -10,7 +9,8 @@
   color: white;
   overflow: hidden;
   border-radius: 8px;
-
+  background-size: cover;
+  background-position: center;
 }
 
 /* Dark blur overlay for readability */

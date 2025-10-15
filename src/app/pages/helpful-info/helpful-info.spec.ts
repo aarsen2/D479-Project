@@ -10,7 +10,7 @@ describe('HelpfulInfo', () => {
     await TestBed.configureTestingModule({
       imports: [HelpfulInfo]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(HelpfulInfo);
     component = fixture.componentInstance;

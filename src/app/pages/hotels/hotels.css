@@ -1,5 +1,3 @@
-
-
 /* ---------- landing Section ---------- */
 .hotels-landing {
   position: relative;
@@ -11,7 +9,9 @@
   text-align: center;
   color: white;
   overflow: hidden;
-      border-radius: 8px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
 
 }
 
@@ -31,7 +31,8 @@
   z-index: 1;
   max-width: 700px;
   padding: 2rem;
-  backdrop-filter: blur(2px); /* subtle polish */
+  backdrop-filter: blur(2px);
+  /* subtle polish */
 }
 
 /* Headline and paragraph styling */
@@ -52,8 +53,8 @@
 
 
 hr {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 
@@ -66,28 +67,28 @@ hr {
   justify-content: center;
 }
 
-.hotel-section{
+.hotel-section {
   width: 80%;
 }
 
 
 .hotel {
-    display: flex;
+  display: flex;
 }
 
 .hotel-text {
-    width: 60%;
-    box-sizing: border-box;
-    margin: 5rem;
+  width: 60%;
+  box-sizing: border-box;
+  margin: 5rem;
 }
 
 .hotel-img {
-    width: 40%;
-    box-sizing: border-box;
-    aspect-ratio: 5/3;
-    border-radius: 8px;
-    text-align: justify;
-    object-fit: cover;
+  width: 40%;
+  box-sizing: border-box;
+  aspect-ratio: 5/3;
+  border-radius: 8px;
+  text-align: justify;
+  object-fit: cover;
 }
 
 
