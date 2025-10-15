@@ -87,6 +87,7 @@ hr {
     aspect-ratio: 5/3;
     border-radius: 8px;
     text-align: justify;
+    object-fit: cover;
 }
 
 
