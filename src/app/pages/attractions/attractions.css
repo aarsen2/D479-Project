@@ -76,11 +76,12 @@ hr {
   width: 60%;
   box-sizing: border-box;
   margin: 5rem;
+  margin-bottom: 0px;
 }
 
 .activity-img {
-  width: 40%;
-  height: auto;
+  width: 35rem;
+  height: 30rem;
   box-sizing: border-box;
   aspect-ratio: 6;
   border-radius: 8px;

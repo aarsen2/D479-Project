@@ -25,6 +25,7 @@
   width: 35rem;
   height: 30rem;
   box-sizing: border-box;
+  aspect-ratio: 6;
   border-radius: 8px;
   object-fit: cover;
 }

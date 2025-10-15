@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './helpful-info.css'
 })
 export class HelpfulInfo {
-
+  ngOnInit(): void {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }
 }

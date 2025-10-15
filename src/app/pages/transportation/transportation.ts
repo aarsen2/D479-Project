@@ -8,5 +8,7 @@ import { RouterModule, RouterOutlet } from '@angular/router';
   styleUrl: './transportation.css'
 })
 export class Transportation {
-
+  ngOnInit(): void {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }
 }

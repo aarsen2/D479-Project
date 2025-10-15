@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PublicTransit } from './public-transit';
+import { DomesticTravel } from './domestic-travel';
 
-describe('PublicTransit', () => {
-  let component: PublicTransit;
-  let fixture: ComponentFixture<PublicTransit>;
+describe('DomesticTravel', () => {
+  let component: DomesticTravel;
+  let fixture: ComponentFixture<DomesticTravel>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PublicTransit]
+      imports: [DomesticTravel]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PublicTransit);
+    fixture = TestBed.createComponent(DomesticTravel);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

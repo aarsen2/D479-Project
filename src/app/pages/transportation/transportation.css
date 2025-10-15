@@ -3,7 +3,7 @@
 /* ---------- landing Section ---------- */
 .transit-landing {
   position: relative;
-  background: url("/assets/images/accomodations-landing.webp") center/cover no-repeat;
+  background: url("/assets/images/transportation-landing.jpg") center/cover no-repeat;
   height: 60vh;
   display: flex;
   align-items: center;
@@ -85,3 +85,4 @@ hr {
   font-weight: bold;
   padding-bottom: 0.25rem;
 }   
+
