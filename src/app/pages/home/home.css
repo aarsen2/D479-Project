@@ -21,7 +21,6 @@
   width: 590px;
   height: 400px; 
   color: black;
-  background-image: url('/assets/images/landing-image.jpg');
   background-size: cover;
   display: flex;
   align-items: flex-end; /* text at the bottom */
@@ -90,18 +89,7 @@
   margin: 0;
 }
 
-/* Individual card backgrounds */
-.getting-around {
-  background-image: url('/assets/images/transportation.jpg');
-}
 
-.things-to-do {
-  background-image: url('/assets/images/activities.jpg');
-}
-
-.where-to-stay {
-  background-image: url('/assets/images/accomodations.jpg');
-}
 
 
 

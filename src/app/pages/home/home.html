@@ -3,7 +3,7 @@
 
   <section class="landing">
     <div class="landing-text">
-      <h1>Taniti: Your Escape to Paradise</h1>
+      <h1>Your Escape to Paradise</h1>
       <p>
         Feel the gentle breeze and the warm sun as you explore Taniti’s pristine beaches 
         and turquoise waters. From relaxing by the shore to strolling along hidden coves,
@@ -16,8 +16,7 @@
         unforgettable escape.
       </p>
     </div>
-    <div class="landing-image">
-      <!-- <img src="assets/images/landing-image.jpg" alt="landing Image" /> -->
+    <div class="landing-image" [style.background-image]="'url(assets/images/landing-image.jpg)'">
     </div>
   </section>
 
@@ -27,15 +26,15 @@
     <h2>Plan your trip</h2>
     <div class="trip-cards">
 
-      <a routerLink="/transportation" class="card getting-around">
+      <a routerLink="/transportation" class="card getting-around" [style.background-image]="'url(/assets/images/transportation.jpg)'">
         <h3>Getting Around</h3>
       </a>
 
-      <a routerLink="/attractions" class="card things-to-do">
+      <a routerLink="/attractions" class="card things-to-do" [style.background-image]="'url(assets/images/activities.jpg)'">
         <h3>Things to Do</h3>
       </a>
 
-      <a routerLink="/hotels" class="card where-to-stay">
+      <a routerLink="/hotels" class="card where-to-stay" [style.background-image]="'url(assets/images/accomodations.jpg)'"> 
         <h3>Where to Stay</h3>
       </a>
 
